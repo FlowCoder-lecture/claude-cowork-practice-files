@@ -39,6 +39,7 @@
 
 | SECTION | 파일 | 구분 | 어느 단계의 입력인지 | 복사할 위치 |
 |---|---|---|---|---|
+| 01 | `section-01/warmup-partner-emails.txt` | 입력 | 웜업 프롬프트의 `[여기에 메일 세 통 붙여 넣기]` | 붙여 넣기용이라 저장하지 않아도 됩니다 |
 | 01 | `section-01/repeat-work-list.txt` | 입력 | 1단계 반복 업무 적기, 4단계 프롬프트의 `[여기에 업무 목록 붙여 넣기]` | 붙여 넣기용이라 저장하지 않아도 됩니다 |
 | 01 | `section-01/work-card-01.md` | 이어 하기 | SECTION 02·03의 준비물 | `mini-agent/` |
 | 02 | `section-02/surface-map-01.md` | 이어 하기 | SECTION 03의 준비물과 프롬프트 입력 | `mini-agent/` |
