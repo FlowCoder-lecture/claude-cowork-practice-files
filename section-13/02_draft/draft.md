@@ -33,6 +33,6 @@ created_at: 2026-07-20 11:20
 
 ## 출처
 
-- [S01] 서비스 A 예약 실행 기능 단계적 제공 안내 — https://example.com/service-a/notice/2026-07-15
-- [S02] 공공부문 생성형 AI 이용 지침 개정 — https://example.com/agency-c/guideline/v3
-- [S03] 서비스 B 변경 기록 2026-07-17 — https://example.com/service-b/changelog/2026-07-17
+- [S01] 서비스 A 예약 실행 기능 단계적 제공 안내 - https://example.com/service-a/notice/2026-07-15
+- [S02] 공공부문 생성형 AI 이용 지침 개정 - https://example.com/agency-c/guideline/v3
+- [S03] 서비스 B 변경 기록 2026-07-17 - https://example.com/service-b/changelog/2026-07-17
