@@ -9,7 +9,7 @@
 | 작업 폴더 | 쓰는 곳 | 만드는 SECTION |
 |---|---|---|
 | `mini-agent` | PART 1 전체 | SECTION 01 |
-| `morning-briefing` | CHAPTER 3과 확장 워크숍 | SECTION 08 |
+| `morning-briefing` | CHAPTER 3과 부록 F 확장 워크숍 | SECTION 08 |
 | `work_pipeline` | CHAPTER 4 | SECTION 11 |
 | `monitoring` | CHAPTER 5 | SECTION 16 |
 | `request-board` | PART 3과 PART 4 | SECTION 20 |
@@ -18,8 +18,8 @@
 
 ## 두 가지 파일을 구분해 주십시오
 
-- **입력** — 그 SECTION에서 독자가 직접 준비해야 하는 데이터입니다. 이 파일이 없으면 실습을 시작할 수 없습니다.
-- **이어 하기** — 앞 SECTION에서 만드는 결과물의 완성 예시입니다. 앞 SECTION을 건너뛰었거나 결과가 책과 달라져 다음 단계로 넘어가기 어려울 때만 쓰십시오. 먼저 직접 만들어 보고, 막혔을 때 꺼내는 편이 남는 것이 많습니다.
+- **입력** - 그 SECTION에서 독자가 직접 준비해야 하는 데이터입니다. 이 파일이 없으면 실습을 시작할 수 없습니다.
+- **이어 하기** - 앞 SECTION에서 만드는 결과물의 완성 예시입니다. 앞 SECTION을 건너뛰었거나 결과가 책과 달라져 다음 단계로 넘어가기 어려울 때만 쓰십시오. 먼저 직접 만들어 보고, 막혔을 때 꺼내는 편이 남는 것이 많습니다.
 
 ## 함께 알아 두실 것
 
@@ -35,7 +35,7 @@
 
 - 실제 업무 데이터로 옮길 때는 `00_contract.md`의 `주제`, `watchlist.md`의 원본 URL, 계약서의 완료 시각을 반드시 본인 값으로 바꿔 적으십시오. 예시 값을 그대로 두면 뒤 SECTION의 검토자가 판정할 수 없다고 되돌립니다.
 
-## PART 1 — 작업 폴더 `mini-agent`
+## PART 1 - 작업 폴더 `mini-agent`
 
 | SECTION | 파일 | 구분 | 어느 단계의 입력인지 | 복사할 위치 |
 |---|---|---|---|---|
@@ -51,18 +51,18 @@
 | 06 | `section-06/data-policy-sample.md` | 입력 | 준비물의 데이터·보안 정책과 연결 후보 서비스 목록 | `mini-agent/` |
 | 06 | `section-06/CLAUDE.md` | 이어 하기 | 6단계 기준 폴더 지침 | 작업 폴더의 맨 위 |
 | 06 | `section-06/briefing-rules.md` | 이어 하기 | SECTION 09 검토 기준 | `morning-briefing/` |
-| 06 | `section-06/connector-permissions.md` | 이어 하기 | SECTION 08 실습 8-1 대조, SECTION 25 권한 목록 | `morning-briefing/` |
-| 06 | `section-06/environment-check.md` | 이어 하기 | SECTION 08 실습 8-1 대조 | `morning-briefing/` |
+| 06 | `section-06/connector-permissions.md` | 이어 하기 | SECTION 08 1~2단계의 연결 상태 대조, SECTION 25 권한 목록 | `morning-briefing/` |
+| 06 | `section-06/environment-check.md` | 이어 하기 | SECTION 08 1~2단계의 연결 상태 대조 | `morning-briefing/` |
 
 `section-04/tests/inbox-empty.txt`는 내용이 없는 파일입니다. 편집기에서 열면 아무것도 보이지 않는 것이 정상입니다.
 
-## CHAPTER 3과 확장 워크숍 — 작업 폴더 `morning-briefing`
+## CHAPTER 3과 부록 F 확장 워크숍 - 작업 폴더 `morning-briefing`
 
 | SECTION | 파일 | 구분 | 어느 단계의 입력인지 | 복사할 위치 |
 |---|---|---|---|---|
-| 07 | `section-07/completion.md` | 이어 하기 | SECTION 08·09의 판정 기준, 워크숍 1 프롬프트 | `morning-briefing/` |
-| 08 | `section-08/sources.md` | 입력 | SECTION 09 실습 9-1·9-2의 입력 파일 | `morning-briefing/` |
-| 09 | `section-09/brief.md` | 이어 하기 | SECTION 10의 비교 대상, 워크숍 준비물 | `morning-briefing/` |
+| 07 | `section-07/completion.md` | 이어 하기 | SECTION 08·09의 판정 기준, 부록 F 워크숍 1 프롬프트 | `morning-briefing/` |
+| 08 | `section-08/sources.md` | 입력 | SECTION 09 1·4·6단계의 입력 파일 | `morning-briefing/` |
+| 09 | `section-09/brief.md` | 이어 하기 | SECTION 10의 비교 대상, 부록 F 워크숍 준비물 | `morning-briefing/` |
 | 10 | `section-10/brief-2026-07-22.md` | 입력 | 「어제와 오늘을 비교합니다」의 직전 파일 | `morning-briefing/` |
 | 워크숍 | `workshop/sources.md` | 입력 | 워크숍 3 블라인드 검토 세트의 원본 입력 | 워크숍용 새 폴더 |
 | 워크숍 | `workshop/sample-a.md` ~ `sample-d.md` | 입력 | 워크숍 3의 검토 대상 네 개 | 같은 폴더 |
@@ -73,7 +73,7 @@
 
 `workshop/sources.md`는 SECTION 08의 것과 한 줄이 다릅니다. Slack 항목이 `수집 실패`로 되어 있어야 「수집 실패를 없음으로 표시」한 오류를 판정할 수 있기 때문입니다.
 
-## CHAPTER 4 — 작업 폴더 `work_pipeline`
+## CHAPTER 4 - 작업 폴더 `work_pipeline`
 
 | SECTION | 파일 | 구분 | 어느 단계의 입력인지 | 복사할 위치 |
 |---|---|---|---|---|
@@ -86,7 +86,7 @@
 
 `section-13/02_draft/draft.md`에는 검토자가 찾아야 할 문제가 일부러 들어 있습니다. 업무 영향의 마지막 문단에 출처 태그가 없고 근거 없는 단정이 들어 있으니, SECTION 14에서 판정하면 차단 문제 한 건이 나오는 것이 정상입니다. 제목의 범위가 넓다는 경고가 함께 나올 수 있습니다.
 
-## CHAPTER 5 — 작업 폴더 `monitoring`
+## CHAPTER 5 - 작업 폴더 `monitoring`
 
 | SECTION | 파일 | 구분 | 어느 단계의 입력인지 | 복사할 위치 |
 |---|---|---|---|---|
@@ -99,7 +99,7 @@
 
 두 스냅샷으로 비교하면 세 대상이 모두 `CHANGED`로 나옵니다. 시험 파일 두 개로 비교하면 차례로 `CHANGED`, `UNCHANGED`, `UNKNOWN`이 나옵니다. 다른 값이 나오면 baseline과 current를 거꾸로 넣지 않았는지 먼저 확인하십시오.
 
-## PART 3과 PART 4 — 작업 폴더 `request-board`
+## PART 3과 PART 4 - 작업 폴더 `request-board`
 
 | SECTION | 파일 | 구분 | 어느 단계의 입력인지 | 복사할 위치 |
 |---|---|---|---|---|
